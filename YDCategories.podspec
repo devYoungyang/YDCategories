@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "DYCategories"
+  s.name         = "YDCategories"
   s.version      = "1.0.0"
   s.summary      = "常用的分类集合."
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.homepage     = "https://github.com/devYoungyang/DYCategories"
+  s.homepage     = "https://github.com/devYoungyang/YDCategories"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/devYoungyang/DYCategories.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/devYoungyang/YDCategories.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,10 +88,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DYCategories", "DYCategories/**/*.{h,m}"
+  s.source_files  = "YDCategories", "YDCategories/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "DYCategories/**/*.h"
+  # s.public_header_files = "YDCategories/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
