@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YDCategories"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "常用的分类集合."
 
   # This description is used to generate tags and improve search results.
