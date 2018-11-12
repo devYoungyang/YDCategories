@@ -94,23 +94,13 @@ Pod::Spec.new do |s|
   # s.public_header_files = "YDCategories/**/*.h"
 
 
-    s.subspec 'NSString' do |ss|
-        ss.source_files = 'YDCategories/NSString.{h,m}'
+    s.subspec 'Base' do |ss|
+        ss.source_files = 'YDCategories/Base/*.{h,m}'
         #ss.public_header_files = 'NSString/NSString.h'
     end
 
-    s.subspec 'UIButton' do |ss|
-        ss.source_files = 'YDCategories/UIButton.{h,m}'
-        #ss.public_header_files = 'NSString/NSString.h'
-    end
-
-    s.subspec 'UIImage' do |ss|
-        ss.source_files = 'YDCategories/UIImage.{h,m}'
-        #ss.public_header_files = 'NSString/NSString.h'
-    end
-
-    s.subspec 'UIViewController' do |ss|
-        ss.source_files = 'YDCategories/UIViewController.{h,m}'
+    s.subspec 'Tools' do |ss|
+        ss.source_files = 'YDCategories/Tools/*.{h,m}'
         #ss.public_header_files = 'NSString/NSString.h'
     end
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
