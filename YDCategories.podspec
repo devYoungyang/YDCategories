@@ -94,6 +94,25 @@ Pod::Spec.new do |s|
   # s.public_header_files = "YDCategories/**/*.h"
 
 
+    s.subspec 'NSString' do |ss|
+        ss.source_files = 'YDCategories/NSString.{h,m}'
+        #ss.public_header_files = 'NSString/NSString.h'
+    end
+
+    s.subspec 'UIButton' do |ss|
+        ss.source_files = 'YDCategories/UIButton.{h,m}'
+        #ss.public_header_files = 'NSString/NSString.h'
+    end
+
+    s.subspec 'UIImage' do |ss|
+        ss.source_files = 'YDCategories/UIImage.{h,m}'
+        #ss.public_header_files = 'NSString/NSString.h'
+    end
+
+    s.subspec 'UIViewController' do |ss|
+        ss.source_files = 'YDCategories/UIViewController.{h,m}'
+        #ss.public_header_files = 'NSString/NSString.h'
+    end
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
