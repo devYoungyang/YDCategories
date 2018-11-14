@@ -13,3 +13,5 @@ lib support cocoapods
 - `pod search YDCategories`搜索库 
 -  搜索报错 [!] Unable to find a pod with name, author, summary, or description matching YDCategories. 解决方案：删除 `~/资源库/Caches/CocoaPods/search_index.json`
 -  `pod search YDCategories`搜索库 
+- 删除本地标签 `git tag -d 1.1.0 `
+- 删除远程标签 'git push origin :refs/tags/1.1.0'
