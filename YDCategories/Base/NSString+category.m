@@ -26,4 +26,9 @@
     }
     return NO;
 }
+
++(CGSize)getLengthOfString:(NSString *)str boundingRectWithSize:(CGSize)rectSize andFont:(float)font{
+   CGSize size= [str boundingRectWithSize:rectSize options:NSStringDrawingUsesFontLeading|NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:font]} context:nil].size;
+    return size;
+}
 @end

@@ -10,6 +10,12 @@
 
 @interface NSString (category)
 
+/**
+ 判断是否为空
+ */
 -(BOOL)isEmpty;
+
++(CGSize)getLengthOfString:(NSString *)str boundingRectWithSize:(CGSize)rectSize andFont:(float)font;
+
 
 @end
